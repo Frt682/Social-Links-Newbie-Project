@@ -1,0 +1,23 @@
+body { 
+background:rgb(20, 20, 20);
+}
+.container{
+    background-color: red;
+    border: 2px solid #000;
+    display: block;
+    width: 500px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+}  
+.social-links{
+    padding: 12px;
+    width: 304px;
+    height: 45px;
+    background: #333333;
+    border-radius: 8px;
+    margin-top: 20px;
+    gap: ;
+    }

@@ -1,0 +1,55 @@
+body { 
+background:rgb(20, 20, 20);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    background-color: red;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 384px;
+    height: 611px;
+    border-radius: 12px;
+    margin-top: 150px;
+    /* card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px;
+gap: 24px;
+
+width: 384px;
+max-width: 384px;
+height: 611px;
+
+background: #1F1F1F;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}  
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 20px;
+   
+}
+.social-links{
+    padding: 12px;
+    width: 304px;
+    height: 45px;
+    background: #333333;
+    border-radius: 8px;
+    margin-top: 6px;;
+    }
